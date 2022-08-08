@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+.list{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin: 5px;
+    padding: 5px;
+    
+    /* border: 2px solid red; */
+
+    
+
+}
+.card-list{
+    border: 0.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 15px;
+    
+    width: 16.87rem;
+    height: 30.5rem;
+    /* flex-direction: row; */
+    transition:  .4s;
+    
+}
+.card-list:hover{
+    
+
+    transform: scale(1.03);
+    
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+overflow: hidden;
+
+}
+.card-list h3{
+    margin: 7px;
+}
+
+/* CSS */
+.GFG span{
+    text-decoration: none;
+}
+.read{
+    text-decoration: none;
+    color: skyblue;
+    font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+    .card-list{
+        width: 330px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+}

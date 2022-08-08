@@ -1,0 +1,19 @@
+.footer{
+    
+    background: rgb(29, 27, 27);
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    list-style: none;
+    
+}
+.social li{
+    margin: 20px;
+    color: white;
+}

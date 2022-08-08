@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* border: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    height: 10vh; */
+    
+
+    position: fixed;
+    top: 0;
+   height: 10vh;
+    /* line-height: 50px; */
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 25px;
+    background: darkcyan;
+    width: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    
+
+
+    
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    position: fixed;   
+    top: 0;
+    text-decoration: none;   
+}
+.navbar li{
+    margin: 30px;
+  
+   text-decoration: none;
+   color: black;
+   list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar{
+        width: 500px;
+    }
+    .navbar ul li{
+        width: 30px;
+        font-size: 20px;
+    }
+
+}
