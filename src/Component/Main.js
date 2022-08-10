@@ -2,7 +2,6 @@ import React from "react";
 import "./Main.css";
 import { useEffect, useState } from "react";
 import Card from "./Card/Card";
-import Upsc from "./UPSC/Upsc";
 
 function Main(){
 const[value,setValue]=useState([]);
